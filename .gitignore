@@ -1,0 +1,28 @@
+# ambiente
+.venv/
+.idea/
+__pycache__/
+*.pyc
+
+# segredos
+.env
+.env.*
+credentials/*.json
+credentials/google_tokens/*.json
+credentials/google_token.json
+credentials/google_accounts.json
+
+# runtime
+/data/conversation_summary.txt
+/data/discord_media/
+/data/cronogramas/
+/data/*.json
+!/data/.gitkeep
+
+# logs
+*.log
+discord.log
+
+# sistema
+.DS_Store
+Thumbs.db
