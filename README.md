@@ -61,7 +61,7 @@ discord_bot.py        # ponto de entrada do bot
 ### 1. Clonar o projeto
 
 ```bash
-git clone <SEU_REPOSITORIO>
+git clone https://github.com/ArtooFar/HerbieBot.git
 cd <PASTA_DO_PROJETO>
 ```
 
