@@ -104,25 +104,26 @@ Use um `.env` local. Não suba esse arquivo para o GitHub.
 Exemplo:
 
 ```env
-GEMINI_API_KEY=
-DISCORD_TOKEN=
+GEMINI_API_KEY= #Preencher
+DISCORD_TOKEN= #Preencher
 MODEL_NAME=gemini-2.5-flash
-SUMMARY_MODEL_NAME=gemini-2.5-flash
+SUMMARY_MODEL_NAME=gemini-2.5-flash-lite
 SEARCH_MODEL_NAME=gemini-2.5-flash
 
 GOOGLE_OAUTH_CLIENT_ID=
 GOOGLE_OAUTH_CLIENT_SECRET=
 GOOGLE_OAUTH_PROJECT_ID=
-GOOGLE_OAUTH_REDIRECT_URI=
+GOOGLE_OAUTH_REDIRECT_URI=http://localhost
 
-GOOGLE_OAUTH_CREDENTIALS_PATH=./credentials/google_credentials.json
-GOOGLE_OAUTH_TOKEN_PATH=./credentials/google_token.json
+GOOGLE_OAUTH_CREDENTIALS_PATH= #Criar arquivos -> Sugestão: ./credentials/google_credentials.json
+GOOGLE_OAUTH_TOKEN_PATH= #Criar arquivos -> Sugestão: ./credentials/google_token.json
 GOOGLE_DEFAULT_TIMEZONE=America/Bahia
 GOOGLE_CALENDAR_PRIMARY_ID=primary
 
-DISCORD_DM_USER_ID=
-# DISCORD_DM_CHANNEL_ID=
+DISCORD_DM_USER_ID= #Preencher (Preferencialmente)
 
+# opcional:
+# DISCORD_DM_CHANNEL_ID=ID_DO_CANAL_DM
 HERBIE_NOTIFICATION_STORE_PATH=./data/herbie_notifications.json
 HERBIE_NOTIFICATION_POLL_SECONDS=15
 HERBIE_GOOGLE_SYNC_INTERVAL_SECONDS=180
