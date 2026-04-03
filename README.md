@@ -1,6 +1,7 @@
 # HERBIE
 
 Assistente pessoal no Discord para agenda, tarefas, notificações, cronogramas e integração com Google Calendar/Google Tasks.
+É um LLM Agêntico baseado na estrutura do Gemini.
 
 ## Aviso importante sobre o escopo do projeto
 
